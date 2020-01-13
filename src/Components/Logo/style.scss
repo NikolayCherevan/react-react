@@ -1,0 +1,14 @@
+.header-logo {
+    width: 100vw;
+    background-color: #364E6B;
+    overflow: hidden;
+    img {
+        width: 100vw;
+        max-height: 200px;
+        object-fit: contain;
+        transform: scale(1.1);
+    }
+}
+.ant-menu-submenu-title {
+    font-style: italic;
+}

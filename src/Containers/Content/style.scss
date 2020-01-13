@@ -1,0 +1,29 @@
+.ant-layout-sider-zero-width-trigger {
+    top: 10px;
+}
+.ant-layout-header {
+    height: 64px;
+    color: aliceblue;
+    padding: 0 50px;
+    line-height: 64px;
+    background: #001529;
+    font-size: xx-large;
+    text-align: center;
+    font-family: monospace;
+}
+.ant-layout-sider-zero-width-trigger:hover {
+    background-color: inherit;
+}
+.ant-menu-item-selected {
+    a {
+        color: aliceblue;
+        display: inline-block;
+    }
+
+}
+.ant-menu-item {
+    a {
+        color: aliceblue;
+        display: inline-block;
+    }
+}
