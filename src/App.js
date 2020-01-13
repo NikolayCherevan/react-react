@@ -9,7 +9,7 @@ import Home from "./Containers/Dashboard/Contacts";
 import MyProjects from "./Containers/Dashboard/MyProjects";
 import Reviews from "./Containers/Dashboard/Reviews";
 
-import * as path from "../../my-app/src/Constants/routes";
+import * as path from "../../react-react/src/Constants/routes";
 import NotFound from "./Containers/Dashboard/NotFound";
 import { Switch} from "react-router-dom";
 import { createBrowserHistory } from "history";
