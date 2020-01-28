@@ -1,29 +1,342 @@
 .ant-layout-sider-zero-width-trigger {
     top: 10px;
 }
+
 .ant-layout-header {
-    height: 64px;
-    color: aliceblue;
-    padding: 0 50px;
+    height     : 64px;
+    color      : aliceblue;
+    padding    : 0 50px;
     line-height: 64px;
-    background: #001529;
-    font-size: xx-large;
-    text-align: center;
+    background : #001529;
+    font-size  : xx-large;
+    text-align : center;
     font-family: monospace;
 }
+
 .ant-layout-sider-zero-width-trigger:hover {
     background-color: inherit;
 }
+
 .ant-menu-item-selected {
+    padding-top: 4px !important;
+
     a {
-        color: aliceblue;
+        color  : aliceblue;
         display: inline-block;
     }
 
 }
+
 .ant-menu-item {
+    .ant-avatar.ant-avatar-square.ant-avatar-icon {
+        margin-bottom: 10px;
+    }
+
     a {
-        color: aliceblue;
+        color  : aliceblue;
         display: inline-block;
+    }
+    .anticon.anticon-user {
+        svg {
+            background: #ffffff!important;
+        }
+    }
+    svg {
+        font-size: xx-large;
+        color    : #7383bd;
+
+    }
+
+    .text-menu {
+        padding-left  : 35px;
+        position      : relative;
+        bottom        : 11px;
+        text-transform: uppercase;
+        overflow      : hidden;
+    }
+}
+
+.ant-layout-sider.ant-layout-sider-dark.ant-layout-sider-collapsed.ant-layout-sider-has-trigger {
+    min-width: 100px !important;
+    width    : 100px !important;
+}
+
+.ant-menu-inline-collapsed {
+    width: auto !important;
+}
+
+.ant-layout-sider-trigger {
+    min-width: 100px !important;
+}
+
+.ant-menu-item.ant-menu-item-selected {
+    padding-top: 4px !important;
+
+}
+
+.ant-menu.ant-menu-dark {
+    padding-top   : 20px !important;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-item,
+.ant-menu-dark.ant-menu-vertical .ant-menu-item,
+.ant-menu-dark.ant-menu-vertical-left .ant-menu-item,
+.ant-menu-dark.ant-menu-vertical-right .ant-menu-item {
+    padding: 0 !important;
+    width  : 100%;
+}
+
+.ant-menu-item {
+    &:before {
+        content   : '';
+        background: #e9f1fc;
+        width     : 30px;
+        height    : 3px;
+        top       : 40px;
+        position  : absolute;
+        display   : block;
+        z-index   : 1111111;
+        left      : 35px;
+    }
+}
+
+.ant-menu-item {
+    overflow  : inherit !important;
+    padding   : 0 !important;
+    width     : 100%;
+    text-align: center;
+
+    a {
+        display: block;
+        width  : 100%;
+        height : 100%;
+    }
+}
+
+.ant-menu.ant-menu-dark.ant-menu-inline-collapsed {
+    .ant-menu-item {}
+}
+
+.ant-layout-content {
+    margin          : 0 !important;
+    background-color: #e9f1fc;
+}
+
+.ant-layout-sider-trigger {
+    display: none !important;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected {
+    background: none !important;
+}
+
+.ant-layout-sider {
+    background: white !important;
+}
+
+.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub {
+    background: white !important;
+}
+
+.ant-tooltip.ant-menu-inline-collapsed-tooltip.ant-tooltip-placement-right {
+    display: none !important;
+}
+
+.home-section {
+    .ant-col.ant-col-8.wrapper1 {
+        padding: 0px 30px;
+    }
+
+    .user-name {
+        color         : #0f152a;
+        font-family   : "Avenir Next Cyr";
+        font-size     : 20px;
+        font-weight   : 500;
+        letter-spacing: -0.17px;
+        margin        : 0;
+    }
+
+    .username-under {
+        color         : #8593c0;
+        font-size     : 14px;
+        font-weight   : 500;
+        letter-spacing: -0.12px;
+        margin        : 0;
+    }
+
+    h2 {
+        max-width : 100px;
+        text-align: center;
+    }
+
+    .card-wrapper {
+        background: #e9f1fc !important;
+        padding   : 0 !important;
+
+        .ant-card-head {
+            border: none !important;
+        }
+
+        .ant-col.ant-col-6 {
+            padding: 0 !important;
+            padding: 0 40px!important;
+        }
+
+        .ant-card {
+            background: #e9f1fc !important;
+
+            .ant-card-body {
+                /* Style for "Flows 27" */
+                width         : 37px;
+                height        : 52px;
+                color         : #8593c0;
+                font-family   : "Avenir Next Cyr Medium";
+                font-size     : 14px;
+                font-weight   : 500;
+                letter-spacing: -0.13px;
+                padding       : 0 !important;
+
+                svg {
+                    font-size : xx-large !important;
+                    color     : #8593c0;
+                }
+            }
+
+            .count-number {
+                color    : #4f4f4f;
+                font-size: 16px;
+                /* Text style for "27" */
+                color      : #434f75;
+                font-family: "Avenir Next";
+                font-size  : 25px;
+                font-weight: 700;
+            }
+        }
+
+    }
+}
+.ant-menu-item.ant-menu-item-selected {
+    &:before {
+        display: none!important;
+    }
+    a {
+        &:after {
+            content: '';
+    background: #df9c4b;
+    width: 30px;
+    height: 4px;
+    top: 18px;
+    position: absolute;
+    display: block;
+    z-index: 1111111;
+    left: -13px;
+    transform: rotateZ(-90deg);
+        }
+    }
+    svg {
+        color: #df9c4b;
+    }
+    
+}
+body * {
+
+    font-family: "Avenir Next Cyr" !important;
+}
+
+.ant-input-affix-wrapper .ant-input-suffix {
+    /* right: 12px; */
+    left    : 10px !important;
+
+    i {
+        svg {
+            color         : #cfddef;
+            font-size     : 16px;
+            letter-spacing: -0.13px;
+        }
+    }
+}
+
+.ant-input-affix-wrapper .ant-input:not(:last-child) {
+    padding-left: 30px !important;
+}
+
+.ant-input-search {
+    margin          : 20px 0px 40px 0px !important;
+    border-radius   : 4px !important;
+    border          : 2px solid #cfddef !important;
+    background-color: #ffffff !important;
+
+    .ant-input {
+        border: none;
+        color : #cfddef !important;
+    }
+}
+.ant-input-search.ant-input-affix-wrapper {
+    min-width: 100%;
+    display: block;
+    width: 100%;
+    margin-left: -5px!important;
+    .ant-input {
+        min-width: 100%;
+    display: block;
+    width: 100%;
+    }
+}
+
+.wrapper {
+    display      : block;
+    margin-bottom: 100px !important;
+    padding      : 0 !important;
+}
+
+.overviews-section {
+    .Overview-title {
+        color         : #404f78;
+        font-family   : "Avenir Next";
+        font-size     : 22px;
+        font-weight   : 700;
+        letter-spacing: -0.15px;
+    }
+
+    .Overview-subtitle {
+        color         : #8593c0;
+        font-family   : "Avenir Next Cyr Medium";
+        font-size     : 16px;
+        font-weight   : 500;
+        letter-spacing: -0.15px;
+    }
+
+    .ant-progress-circle-path {
+        stroke: #434f75 !important;
+    }
+
+    .ant-progress-inner {
+        width : 200px !important;
+        height: 200px !important;
+    }
+
+    .ant-progress-text {
+        width         : 97px;
+        height        : 66px;
+        color         : #434f75;
+        font-family   : "Avenir Next";
+        font-size     : 48px;
+        font-weight   : 700;
+        letter-spacing: -0.12px;
+    }
+
+    .ant-progress-circle-trail {
+        stroke: #cddaed !important;
+    }
+
+    .ant-progress.ant-progress-circle.ant-progress-status-normal {
+        display        : flex;
+        width          : 100%;
+        justify-content: center;
+        padding-top    : 40px;
     }
 }
