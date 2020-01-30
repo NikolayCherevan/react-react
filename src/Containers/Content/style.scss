@@ -231,16 +231,16 @@
 
     a {
         &:after {
-            content   : '';
+            content: '';
             background: #df9c4b;
-            width     : 30px;
-            height    : 4px;
-            top       : 18px;
-            position  : absolute;
-            display   : block;
-            z-index   : 1111111;
-            left      : -13px;
-            transform : rotateZ(-90deg);
+            width: 50px;
+            height: 4px;
+            top: 18px;
+            position: absolute;
+            display: block;
+            z-index: 1111111;
+            left: -23px;
+            transform: rotateZ(-90deg);
         }
     }
 
@@ -437,49 +437,90 @@ body * {
 }
 
 .wrapper-event {
-    background: url(./../../img/background-events.png)no-repeat!important;
-    background-size: contain!important;
-    .card-wrapper {
-        background-color: white!important;
-        padding: 17px!important;
-        min-height: 525px;
 
 
-        .card-header {
+
+
+    .avatar-name-wrapp {
+        color          : #434f75;
+        font-family    : "Avenir Next Cyr Medium";
+        font-size      : 18px;
+        font-weight    : 500;
+        letter-spacing : -0.17px;
+        display        : flex;
+        align-items    : center;
+        min-width      : 100px;
+        justify-content: space-between;
+    }
+
+    .date-wrapper {
+
+        align-items    : center;
+        display        : flex;
+        justify-content: space-between;
+        color          : #9ca3bb;
+        font-size      : 14px;
+        font-weight    : 500;
+        letter-spacing : -0.15px;
+
+        .data {
+            margin-right: 20px;
+            display     : block;
+        }
+
+    }
+
+    .event-desc {
+        margin-top    : 10px;
+        color         : #434f75;
+        font-family   : "Avenir Next Cyr Medium";
+        font-size     : 16px;
+        font-weight   : 500;
+        letter-spacing: -0.17px;
+        padding-bottom: 14px;
+        border-bottom : 2px solid #e9f1fc;
+    }
+
+    .card-boody {
+        height    : 100%;
+        display   : block;
+        min-height: 500px;
+        max-height: 600px;
+        overflow-y: scroll;
+        background: white;
+        position  : relative;
+
+     
+
+        .wrapper-events {
             display        : flex;
+            padding-top    : 20px;
             justify-content: space-between;
-            .avatar-name-wrapp {
-                color: #434f75;
-                font-family: "Avenir Next Cyr Medium";
-                font-size: 18px;
+        }
+
+        section {
+            padding : 10px 20px;
+            z-index : 2;
+            position: relative;
+        }
+        .figure-wrapp {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            img {
+                max-width: 215px;
+            }
+            .subtitle-event {
+                color: #b6c5da;
+                font-size: 16px;
                 font-weight: 500;
                 letter-spacing: -0.17px;
+                display: block;
+                padding-bottom: 40px;
             }
-            .date-wrapper {
-
-                align-items: center;
-                display: flex;
-                justify-content: space-between;
-                color: #9ca3bb;
-                font-size: 14px;
-                font-weight: 500;
-                letter-spacing: -0.15px;
-                .data {
-                    margin-right: 20px;
-                    display: block;
-                }
-
-            }
-        }
-        .event-desc {
-            margin-top: 10px;
-            color: #434f75;
-            font-family: "Avenir Next Cyr Medium";
-            font-size: 16px;
-            font-weight: 500;
-            letter-spacing: -0.17px;
-            padding-bottom: 14px;
-            border-bottom: 2px solid #e9f1fc;
         }
     }
+
 }
