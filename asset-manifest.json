@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react-react/static/css/main.6c37b997.chunk.css",
-    "main.js": "/react-react/static/js/main.e0f99f4c.chunk.js",
-    "main.js.map": "/react-react/static/js/main.e0f99f4c.chunk.js.map",
+    "main.css": "/react-react/static/css/main.f5b0c29a.chunk.css",
+    "main.js": "/react-react/static/js/main.2f517fde.chunk.js",
+    "main.js.map": "/react-react/static/js/main.2f517fde.chunk.js.map",
     "runtime-main.js": "/react-react/static/js/runtime-main.ec14b3d2.js",
     "runtime-main.js.map": "/react-react/static/js/runtime-main.ec14b3d2.js.map",
     "static/css/2.aef8ad04.chunk.css": "/react-react/static/css/2.aef8ad04.chunk.css",
-    "static/js/2.c6f033b1.chunk.js": "/react-react/static/js/2.c6f033b1.chunk.js",
-    "static/js/2.c6f033b1.chunk.js.map": "/react-react/static/js/2.c6f033b1.chunk.js.map",
+    "static/js/2.e1a6dff3.chunk.js": "/react-react/static/js/2.e1a6dff3.chunk.js",
+    "static/js/2.e1a6dff3.chunk.js.map": "/react-react/static/js/2.e1a6dff3.chunk.js.map",
     "index.html": "/react-react/index.html",
-    "precache-manifest.4855d4887574320eb1dc02b39b2d8859.js": "/react-react/precache-manifest.4855d4887574320eb1dc02b39b2d8859.js",
+    "precache-manifest.e34706ec6a3492255d73724f3dd3f6a2.js": "/react-react/precache-manifest.e34706ec6a3492255d73724f3dd3f6a2.js",
     "service-worker.js": "/react-react/service-worker.js",
     "static/css/2.aef8ad04.chunk.css.map": "/react-react/static/css/2.aef8ad04.chunk.css.map",
-    "static/css/main.6c37b997.chunk.css.map": "/react-react/static/css/main.6c37b997.chunk.css.map",
-    "static/js/2.c6f033b1.chunk.js.LICENSE": "/react-react/static/js/2.c6f033b1.chunk.js.LICENSE",
+    "static/css/main.f5b0c29a.chunk.css.map": "/react-react/static/css/main.f5b0c29a.chunk.css.map",
+    "static/js/2.e1a6dff3.chunk.js.LICENSE": "/react-react/static/js/2.e1a6dff3.chunk.js.LICENSE",
     "static/media/App.css": "/react-react/static/media/icomoon.89eb06fd.eot",
     "static/media/style.scss": "/react-react/static/media/background-events.7660217b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ec14b3d2.js",
     "static/css/2.aef8ad04.chunk.css",
-    "static/js/2.c6f033b1.chunk.js",
-    "static/css/main.6c37b997.chunk.css",
-    "static/js/main.e0f99f4c.chunk.js"
+    "static/js/2.e1a6dff3.chunk.js",
+    "static/css/main.f5b0c29a.chunk.css",
+    "static/js/main.2f517fde.chunk.js"
   ]
 }
