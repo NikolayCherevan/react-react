@@ -9,16 +9,8 @@ const EventsList = () => {
   let events = [
       'Start working',
       'Drop project',
-      'Leave copmpany',
-      'Start working',
-      'Drop project',
-      'Leave copmpany',
-      'Start working',
-      'Drop project',
-      'Leave copmpany',
-      'Start working',
-      'Drop project',
-      'Leave copmpany'
+
+
   ]
 
 

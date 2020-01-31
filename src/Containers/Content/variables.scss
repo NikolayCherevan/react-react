@@ -1,43 +1,112 @@
-$desk: "only screen and (max-width : 1270px)";
+$desk  : "only screen and (max-width : 1270px)";
 $mobile: "only screen and (max-width : 540px)";
 
 @media #{$desk} {
-  .home-section {
-      .home-row {
-        display: flex;
-        flex-direction: column;
-        .ant-col.ant-col-8 {
-            width: 100%!important;
+    .home-section {
+        .home-row {
+            display       : flex;
+            flex-direction: column;
+
+            .ant-col.ant-col-8 {
+                width: 100% !important;
+            }
+
+            .ant-row {
+                display  : flex;
+                flex-wrap: wrap;
+            }
         }
-        .ant-row {
-            display: flex;
-            flex-wrap: wrap;
-        }
-      }
-  }
-  
+    }
+
 }
+
 @media #{$mobile} {
     .home-section .card-wrapper .ant-col.ant-col-6 {
         margin-bottom: 40px;
     }
+
     .projects-wrapper {
         .ant-row {
-          display: flex;
-          flex-wrap: wrap;
-          flex-direction: column;
+            display       : flex;
+            flex-wrap     : wrap;
+            flex-direction: column;
         }
     }
+
     .wrapper2 {
-        padding: 0!important;
+        padding: 0 !important;
     }
+
     .card-header {
         flex-direction: column;
     }
+
     .wrapper-event .card-wrapper .card-header .avatar-name-wrapp {
         margin-bottom: 20px;
     }
-    .ant-input-search.ant-input-affix-wrapper { 
-        width: 100%!important;
+
+    .ant-input-search.ant-input-affix-wrapper {
+        width: 100% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+$primary: #fff;
+
+$secondary: #8593c0;
+
+
+
+
+.btn {
+    display        : flex;
+    width          : 200px;
+    max-width      : 200px;
+    height         : 45px;
+    justify-content: center;
+    align-items    : center;
+    border         : 1px solid transparent;
+    border-radius  : 0;
+    font-size      : 18px;
+    line-height    : 22px;
+
+    &:disabled {
+        background: rgb(57, 65, 138) !important;
+        color     : #fff !important;
+    }
+
+    &.primary {
+        color       : $primary;
+        background  : $secondary;
+        border-color: $secondary;
+        border-radius: 4px;
+
+        &:hover {
+            background     : rgb(73, 81, 145) !important;;
+            border-collapse: #E0E0E0;
+        }
+    }
+
+    &.secondary {
+        border-color: $secondary;
+        color       : $secondary;
+
+        &:hover {
+            border-color: #E0E0E0;
+            color       : #E0E0E0;
+        }
+    }
+
+    &.green {
+        background: #6FCF97;
     }
 }

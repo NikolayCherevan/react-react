@@ -39,7 +39,7 @@ class FormLayoutDemo extends React.Component {
             <Input placeholder="input placeholder" />
           </Form.Item>
           <Form.Item {...buttonItemLayout}>
-            <Button type="primary"> Add project</Button>
+            <Button className='btn primary' type="primary"> Add project</Button>
           </Form.Item>
         </Form>
         
