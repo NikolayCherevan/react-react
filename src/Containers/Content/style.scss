@@ -524,3 +524,52 @@ body * {
     }
 
 }
+.popup-project-hide {
+
+    opacity: 0;
+}
+.popup-project {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    background: white;
+    transition: opacity 0.5s linear;
+    opacity: 1;
+    z-index: 1111111111111111111111111;
+    .popup-project-wrapper {
+        .ant-form.ant-form-horizontal {
+            margin-top: 100px;
+        }
+    }
+    .close-popup {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        position: absolute;
+    right: 20px;
+    top: 20px;
+    background: white;
+    border: none;
+    font-size: xx-large;
+    }
+    
+     
+}
+.wrapper-overlay {
+    &:after {
+        content: '';
+        background: #001529;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top:0;
+        z-index: 1111111;
+        opacity: 0.5;
+    }
+}
